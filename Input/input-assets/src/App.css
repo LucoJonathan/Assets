@@ -92,3 +92,42 @@ label {
     text-decoration-line: underline;
     font-family: 'Arial', 'sans-serif';
 }
+/*----------------------CARD----------------------------*/
+
+#card{
+    background: rgba(158, 158, 158, 0.13);
+    padding: 2%;
+    border-radius: 10px;
+    margin: auto;
+    justify-content: center;
+    width: 20%;
+    min-height: 400px;
+}
+
+#pictureCard {
+    margin: auto;
+    background: whitesmoke;
+    border-radius: 10px;
+    padding: 2%;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+#textCard {
+    text-align: justify;
+}
+
+#buttonCard {
+    text-align: end;
+}
+
+/*----------------------IMG----------------------------*/
+img {
+    height: 100px;
+    width: 100px;
+}
+
+/*----------------------P----------------------------*/
+
+p {
+
+}
