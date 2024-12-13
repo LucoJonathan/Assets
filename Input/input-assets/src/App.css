@@ -1,18 +1,61 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
 }
 
-
+/*-----------------------INPUT------------------------*/
 
 input {
+    color: black;
+    background: white;
     padding: 1%;
     width: 200px;
     height: 20px;
-    border-radius: 10px;
+    border-radius: 8px;
     font-size: medium;
-    background: whitesmoke;
-    box-shadow: 0.2px 2px 0px rgba(0, 0, 0, 0.2);
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.4s;
+}
+input:hover {
+        background-color: whitesmoke;
+}
+
+
+/*-----------------------BUTTON------------------------*/
+button {
+    min-width: 150px;
+    min-height: 20px;
+    padding: 1%;
+    /*
+    GREEN BUTTON
+    background-color: #197754;
+      border: 2px solid #197754; */
+    /* RED BUTTON
+    background-color: #950707;
+    border: 2px solid #950707;*/
+    /*BLUE BUTTON*/
+    background-color: #0b1bba;
+    border: 2px solid #0b1bba;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: whitesmoke; /* Green */
+    color: black;
+}
+
+/*----------------------LABEL----------------------------*/
+
+label {
+    text-align: start;
+    font-size: medium;
+    text-decoration-line: underline;
+    font-family: 'Arial', 'sans-serif';
 }
