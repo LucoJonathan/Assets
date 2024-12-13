@@ -4,15 +4,49 @@
     padding: 2rem;
     text-align: center;
 }
+/*-----------------------form------------------------*/
+form {
+    background: rgba(158, 158, 158, 0.13);
+    width: 50%;
+    margin: auto;
+    min-height: 50vh;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#register {
+    background: rgba(158, 158, 158, 0.13);
+    width: 50%;
+    margin: auto;
+    min-height: 50vh;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*-----------------------DIV------------------------*/
+#row {
+    background: #0b1bba;
+    display: inline-flex;
+    min-width: 80%;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+}
 
 /*-----------------------INPUT------------------------*/
 
 input {
     color: black;
     background: white;
-    padding: 1%;
-    width: 200px;
-    height: 20px;
+    padding: 5%;
+    min-width: 50%;
+    min-height: 20px;
     border-radius: 8px;
     font-size: medium;
     border: none;
